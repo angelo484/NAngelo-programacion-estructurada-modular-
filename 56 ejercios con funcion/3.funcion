@@ -1,0 +1,21 @@
+Funcion es_par <- esPar ( num )
+	Si num MOD 2 == 0 Entonces
+		es_par = Verdadero
+	Sino
+		es_par = Falso
+	FinSi
+Fin Funcion
+
+Proceso ParOImparConFuncion
+	Definir numero Como Entero
+	
+	Escribir "Introduce un número para saber si es par:"
+	Leer numero
+	
+	// Llamamos a la función dentro de una condición
+	Si esPar(numero) Entonces
+		Escribir "El número ", numero, " es par."
+	Sino
+		Escribir "El número ", numero, " es impar."
+	FinSi
+FinProceso

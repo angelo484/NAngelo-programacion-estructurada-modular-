@@ -1,0 +1,18 @@
+Funcion resultado <- sumar ( numero1, numero2 )
+	resultado = numero1 + numero2
+Fin Funcion
+
+Proceso SumaConFuncion
+	Definir a, b, res Como Entero
+	
+	Escribir "Introduce el primer número:"
+	Leer a
+	
+	Escribir "Introduce el segundo número:"
+	Leer b
+	
+	// Llamamos a la función y guardamos el resultado
+	res <- sumar(a, b)
+	
+	Escribir "La suma de ", a, " y ", b, " es: ", res
+FinProceso
